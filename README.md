@@ -16,7 +16,7 @@ MolGen2021_Manual			- Manual with all infromations about the practicals.
 
 ### Important informations
 
-To be able to install and use all packages required, please use R version 3.6.x. Do not use R version 4.x.x .
+To be able to install and use all packages required, please **use R version 3.6.x. Do not use R version 4.x.x**.
 
 
 ### Packages installation
