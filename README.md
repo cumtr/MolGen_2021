@@ -24,22 +24,22 @@ If you already have an R verison installed on your laptop and want to change, yo
 
 To install all packages required, please run these commands
 
-`install.packages("ape")`
+`install.packages("ape", dependencies = TRUE)`
 
-`install.packages("phangorn")`
+`install.packages("phangorn", dependencies = TRUE)`
 
-`install.packages("seqinr")`
+`install.packages("seqinr", dependencies = TRUE)`
 
-`install.packages("adegenet")`
+`install.packages("adegenet", dependencies = TRUE)`
 
-`install.packages("pegas")`
+`install.packages("pegas", dependencies = TRUE)`
 
-`install.packages("hierfstat")`
+`install.packages("hierfstat", dependencies = TRUE)`
 
-`install.packages("raster")`
+`install.packages("raster", dependencies = TRUE)`
 
 `if (!requireNamespace("BiocManager", quietly = TRUE))`
 
 `install.packages("BiocManager")`
 
-`BiocManager::install("LEA")`
+`BiocManager::install("LEA", dependencies = TRUE)`
